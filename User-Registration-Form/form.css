@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, green, lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    max-width: 500px;
+}
+h1{
+    background-image: linear-gradient( green, lightblue);
+    background-clip: text;    
+    color: transparent;
+}
+.input-style{
+    border: none;
+    border-bottom: 2px solid lightblue;
+    outline: none;
+}
+.btn-style{
+    border: none;
+    background-image: linear-gradient(to right, green, lightblue);
+}
